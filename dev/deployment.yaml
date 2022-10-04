@@ -6,7 +6,7 @@ metadata:
     app: local-vayu-nginx
     release: local-vayu-nginx
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: local-vayu-nginx
